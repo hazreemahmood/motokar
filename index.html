@@ -1,0 +1,176 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="MOTOKAR offers friendly advice on buying, servicing and repairing cars. Available in Kuala Lumpur, Selangor and remotely. Consultations from RM50.">
+  <meta name="theme-color" content="#101112">
+  <title>MOTOKAR | Car Consulting</title>
+  <link rel="icon" type="image/webp" href="assets/motokar-wordmark.webp">
+  <link rel="stylesheet" href="styles.css">
+  <script src="app.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#main" data-text="skip">Skip to content</a>
+  <header class="site-header">
+    <div class="shell header-inner">
+      <a class="brand" href="#home" aria-label="MOTOKAR">
+        <img src="assets/motokar-wordmark.webp" alt="MOTOKAR" width="940" height="176">
+      </a>
+      <nav aria-label="Main navigation" data-label="mainNav">
+        <a href="#services" data-text="navServices">Services</a>
+        <a href="#gallery" data-text="navGallery">Gallery</a>
+        <a href="#contact" data-text="navContact">Contact</a>
+      </nav>
+      <button class="language-toggle" type="button" data-open-language aria-haspopup="dialog" aria-label="Change language" data-label="changeLanguage"><span class="language-code">EN</span><span aria-hidden="true">⌄</span></button>
+    </div>
+  </header>
+
+  <main id="main">
+    <section class="hero" id="home" aria-labelledby="hero-title">
+      <div class="hero-art">
+        <picture>
+          <source media="(max-width: 640px)" srcset="assets/motokar-wordmark.webp">
+          <img src="assets/motokar-hero.webp" alt="MOTOKAR" width="1280" height="720" fetchpriority="high">
+        </picture>
+      </div>
+      <div class="shell hero-content">
+        <p class="eyebrow" data-text="heroLabel">Car consulting · KL, Selangor & remote</p>
+        <h1 id="hero-title" data-text="heroTitle">Car decisions made easier.</h1>
+        <p class="hero-description" data-text="heroDescription">Buying a new or used car? Unsure what needs servicing or replacing? We’ll help you understand your options before you spend.</p>
+        <div class="hero-actions">
+          <a class="button button-primary" href="#contact"><span data-text="enquire">Make an enquiry</span><span aria-hidden="true">↗</span></a>
+          <a class="text-link" href="#services"><span data-text="seeServices">Explore services</span><span aria-hidden="true">↓</span></a>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="services" aria-labelledby="services-title">
+      <div class="shell">
+        <div class="section-intro">
+          <div>
+            <p class="eyebrow" data-text="navServices">Services</p>
+            <h2 id="services-title" data-text="servicesTitle">Where we can help</h2>
+          </div>
+          <p class="muted" data-text="servicesIntro">We’re automotive enthusiasts who help you ask the right questions and make sense of what you’re paying for.</p>
+        </div>
+        <div class="service-grid">
+          <article class="service">
+            <span class="service-mark" aria-hidden="true">↗</span>
+            <h3 data-text="buyTitle">Buying a car</h3>
+            <p data-text="buyText">Compare new or used options, know what to ask the seller, and understand what to check before you commit.</p>
+          </article>
+          <article class="service">
+            <span class="service-mark" aria-hidden="true">↗</span>
+            <h3 data-text="serviceTitle">Servicing your car</h3>
+            <p data-text="serviceText">Understand your service schedule, what’s due at your next visit, and which recommended extras to ask about.</p>
+          </article>
+          <article class="service">
+            <span class="service-mark" aria-hidden="true">↗</span>
+            <h3 data-text="repairTitle">Repairs & parts</h3>
+            <p data-text="repairText">Talk through a workshop quote and learn what to clarify before approving repairs or replacement parts.</p>
+          </article>
+        </div>
+        <div class="price-strip">
+          <div><p class="price" data-text="price">From RM50</p><p class="muted" data-text="priceNote">Ask for a quote for your situation. No hidden fees.</p></div>
+          <a class="button button-outline" href="#contact"><span data-text="enquire">Make an enquiry</span><span aria-hidden="true">↗</span></a>
+        </div>
+      </div>
+    </section>
+
+    <section class="section gallery-section" id="gallery" aria-labelledby="gallery-title">
+      <div class="shell">
+        <div class="section-intro">
+          <div>
+            <p class="eyebrow" data-text="navGallery">Gallery</p>
+            <h2 id="gallery-title" data-text="galleryTitle">A closer look</h2>
+          </div>
+          <p class="muted" data-text="galleryNote">Illustrative automotive photography.</p>
+        </div>
+        <div class="gallery-grid">
+          <button class="gallery-card" type="button" data-photo="0">
+            <img src="assets/gallery-0.webp" alt="" width="512" height="1024" loading="lazy">
+            <span class="gallery-caption"><span data-text="photoCar">The car</span><span aria-hidden="true">↗</span></span>
+          </button>
+          <button class="gallery-card" type="button" data-photo="1">
+            <img src="assets/gallery-1.webp" alt="" width="512" height="1024" loading="lazy">
+            <span class="gallery-caption"><span data-text="photoEngine">Under the bonnet</span><span aria-hidden="true">↗</span></span>
+          </button>
+          <button class="gallery-card" type="button" data-photo="2">
+            <img src="assets/gallery-2.webp" alt="" width="512" height="1024" loading="lazy">
+            <span class="gallery-caption"><span data-text="photoWheel">Wheel & brake details</span><span aria-hidden="true">↗</span></span>
+          </button>
+        </div>
+      </div>
+    </section>
+
+    <section class="section contact-section" id="contact" aria-labelledby="contact-title">
+      <div class="shell contact-layout">
+        <div>
+          <p class="eyebrow" data-text="navContact">Contact</p>
+          <h2 id="contact-title" data-text="contactTitle">What’s on your mind?</h2>
+          <p class="contact-intro muted" data-text="contactIntro">Tell us what car you’re looking at, what your workshop recommended, or what you’d like help with.</p>
+          <p class="contact-region" data-text="region">Kuala Lumpur · Selangor · Remote consultations</p>
+          <ul class="contact-channels" aria-describedby="channels-status">
+            <li><span aria-hidden="true">◉</span> WhatsApp</li>
+            <li><span aria-hidden="true">☎</span> <span data-text="phone">Call</span></li>
+            <li><span aria-hidden="true">✉</span> <span data-text="email">Email</span></li>
+          </ul>
+          <p id="channels-status" class="muted small" data-text="channelsStatus">Contact details coming soon.</p>
+        </div>
+        <form class="enquiry-form" id="enquiry-form">
+          <p class="form-heading" data-text="formTitle">Enquiry preview</p>
+          <p class="muted small" data-text="formNote">Try the form here. Your message stays on this page.</p>
+          <label for="customer-name" data-text="name">Name</label>
+          <input id="customer-name" autocomplete="name" required maxlength="100">
+          <label for="customer-email" data-text="emailAddress">Email address</label>
+          <input id="customer-email" type="email" autocomplete="email" required maxlength="254">
+          <label for="customer-message" data-text="message">How can we help?</label>
+          <textarea id="customer-message" rows="4" required maxlength="2000"></textarea>
+          <button type="submit" class="button button-primary" id="preview-button" disabled><span data-text="preview">Preview enquiry</span><span aria-hidden="true">↗</span></button>
+          <noscript><p>Enable JavaScript to preview the form. / Aktifkan JavaScript untuk melihat pratonton borang.</p></noscript>
+          <p id="form-status" class="form-status" role="status"></p>
+          <div class="enquiry-preview" id="enquiry-preview" hidden>
+            <dl>
+              <dt data-text="to">To (placeholder)</dt><dd>enquiries@motokar.example</dd>
+              <dt data-text="name">Name</dt><dd id="preview-name"></dd>
+              <dt data-text="emailAddress">Email address</dt><dd id="preview-email"></dd>
+              <dt data-text="message">How can we help?</dt><dd id="preview-message"></dd>
+            </dl>
+          </div>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="shell footer-inner">
+      <a class="brand" href="#home" aria-label="MOTOKAR"><img src="assets/motokar-wordmark.webp" alt="MOTOKAR" width="940" height="176" loading="lazy"></a>
+      <a class="text-link" href="#home"><span data-text="backTop">Back to top</span><span aria-hidden="true">↑</span></a>
+    </div>
+  </footer>
+
+  <dialog id="language-dialog" aria-labelledby="language-title">
+    <div class="language-panel">
+      <img class="language-brand" src="assets/motokar-wordmark.webp" width="940" height="176" alt="MOTOKAR">
+      <h2 id="language-title">Choose your language <span lang="ms">Pilih bahasa anda</span></h2>
+      <div class="language-options">
+        <button class="button button-outline" type="button" data-language="en" lang="en">English <span aria-hidden="true">↗</span></button>
+        <button class="button button-outline" type="button" data-language="ms" lang="ms">Bahasa Melayu <span aria-hidden="true">↗</span></button>
+      </div>
+    </div>
+  </dialog>
+
+  <dialog id="gallery-dialog" aria-labelledby="gallery-dialog-caption">
+    <div class="gallery-panel">
+      <button class="icon-button gallery-close" type="button" data-close-gallery aria-label="Close gallery" data-label="closeGallery">×</button>
+      <img id="gallery-dialog-image" alt="">
+      <div class="gallery-controls">
+        <button class="icon-button" type="button" data-gallery-step="-1" aria-label="Previous image" data-label="previous">←</button>
+        <p id="gallery-dialog-caption" aria-live="polite"></p>
+        <button class="icon-button" type="button" data-gallery-step="1" aria-label="Next image" data-label="next">→</button>
+      </div>
+    </div>
+  </dialog>
+</body>
+</html>
